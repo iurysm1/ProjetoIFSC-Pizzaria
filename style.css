@@ -11,10 +11,7 @@ body{
     margin: 0px;
 }
 
-header{
-    height: 400px;
-    
-}
+
 main{
     padding: 0px;
     margin: auto;
@@ -55,15 +52,6 @@ div h2{
     height: 200px;
     text-align: center;
 }
-
-
-
-header img{
-    transform: scale(0.2);
-    color: rgba(255, 255, 255, 0.884);
-}
-
-
 
 #visitado{
     background-color: rgba(255, 221, 110, 0.719);
@@ -141,10 +129,11 @@ hr {
 
   #navbarTogglerDemo03{
     margin-right: 20px;
+    height: auto;
   }
 
   .nav-link-transition{
-    transition: all 5s ease;
+    transition: all 1s ease;
     margin: 10px;
     border-radius: 5px;
   }
@@ -152,6 +141,7 @@ hr {
   .nav-link-transition:hover{
         transform: translateY(-10px);
         box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.11);
+        background: linear-gradient(#eb5f5525 30%, #eb5f55);
         
   }
 
@@ -176,3 +166,25 @@ hr {
     border-color: #EB5E55;
     color: #0F0F0F;
 }
+
+.navbar-brand{
+    width: 141px;
+    height: 69px;
+    display: flex; 
+    align-items: center;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.navbar-brand img {
+    display: block;  /* Garante que a imagem seja exibida como um bloco, removendo espaços indesejados */
+    width: 141px;    /* Define a largura da imagem */
+    height: 69px;    /* Define a altura da imagem */
+}
+
+#mobile{
+    background-color: #c7c7c7;
+    color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
